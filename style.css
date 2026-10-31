@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; background: #e0f2fe; }
+form {width: 400px; margin: 30px auto; padding: 25px;
+  background: white; border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);}
+
+h1 {text-align: center; color: #0369a1; }
+label {display: block; margin-top: 12px; font-weight: bold;}
+label.inline { display: inline; font-weight: normal; margin-right: 10px;}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select, textarea {width: 100%; padding: 8px; margin-top: 5px;
+border: 1px solid #94a3b8; border-radius: 6px; box-sizing: border-box;}
+
+button {width: 100%; margin-top: 20px; padding: 10px;
+  background: #0284c7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;}
+
+button:hover { background: #0369a1; }

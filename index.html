@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h1>Student Registration</h1>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="you@example.com" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" placeholder="10-digit number">
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob">
+
+    <label>Gender</label>
+    <div>
+      <input type="radio" name="gender" id="m"> <label for="m" class="inline">Male</label>
+      <input type="radio" name="gender" id="f"> <label for="f" class="inline">Female</label>
+      <input type="radio" name="gender" id="o"> <label for="o" class="inline">Other</label>
+    </div>
+
+    <label for="course">Course</label>
+    <select id="course">
+      <option>BCA</option>
+      <option>B.Tech</option>
+      <option>BBA</option>
+    </select>
+
+    <label>Hobbies</label>
+    <div>
+      <input type="checkbox" id="h1"> <label for="h1" class="inline">Coding</label>
+      <input type="checkbox" id="h2"> <label for="h2" class="inline">Music</label>
+      <input type="checkbox" id="h3"> <label for="h3" class="inline">Sports</label>
+    </div>
+
+    <label for="about">About You</label>
+    <textarea id="about" rows="4"></textarea>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
